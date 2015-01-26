@@ -1,0 +1,10 @@
+C:\Users\rwatson.EUROFFICE\Downloads\OneShotLatest\OneShot\Project\bin\Debug\Project.dacpac
+C:\Users\rwatson.EUROFFICE\Downloads\OneShotLatest\OneShot\Project\bin\Debug\Project.dll
+C:\Users\rwatson.EUROFFICE\Downloads\OneShotLatest\OneShot\Project\bin\Debug\Project.pdb
+C:\Users\rwatson.EUROFFICE\Downloads\OneShotLatest\OneShot\Project\obj\Debug\Project.dll
+C:\Users\rwatson.EUROFFICE\Downloads\OneShotLatest\OneShot\Project\obj\Debug\Project.pdb
+C:\Users\rwatson.EUROFFICE\Documents\Visual Studio 2013\Projects\ProjectManager\Project\bin\Debug\Project.dacpac
+C:\Users\rwatson.EUROFFICE\Documents\Visual Studio 2013\Projects\ProjectManager\Project\bin\Debug\Project.dll
+C:\Users\rwatson.EUROFFICE\Documents\Visual Studio 2013\Projects\ProjectManager\Project\bin\Debug\Project.pdb
+C:\Users\rwatson.EUROFFICE\Documents\Visual Studio 2013\Projects\ProjectManager\Project\obj\Debug\Project.dll
+C:\Users\rwatson.EUROFFICE\Documents\Visual Studio 2013\Projects\ProjectManager\Project\obj\Debug\Project.pdb

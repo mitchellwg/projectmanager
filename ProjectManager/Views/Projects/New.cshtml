@@ -1,0 +1,162 @@
+﻿@model ProjectManager.Models.Projects.ProjectModel
+
+@section scripts
+{
+    <script type="text/javascript" src="@Url.Content("/Scripts/App/Projects/NewProject.js")"></script>  
+}
+<div>
+    <div>
+        <h2>New Project</h2>
+    </div>
+    
+
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <div class="form-horizontal">
+                <fieldset>
+                    <br />
+                    <div class="form-group">
+                        <div class="col-md-2">
+                            <label class="control-label">Name: </label>
+                        </div>
+                        <div class="col-md-3">
+                            <input type="text" id="txtName" class="form-control" placeholder="Project Name..." />
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-md-2">
+                            <label class="control-label">Description: </label>
+                        </div>
+                        <div class="col-md-3">
+                            <textarea  id="txtDescription" class="form-control" placeholder="Description..." ></textarea>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-md-2">
+                            <label class="control-label">Type: </label>
+                        </div>
+                        <div class="col-md-3">
+                            <select id="ddlProjectTypes" class="form-control" >
+                                @*<option style="display:none;" value="" disabled selected>Select your option...</option>
+                                @{
+                                    foreach (var type in Model.types)
+                                    {
+                                        <option value="@type.id">@type.type</option>
+                                    }
+                                }*@
+                            </select>
+                            
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-md-2">
+                            <label class="control-label">Region: </label>
+                        </div>
+                        <div class="col-md-3">
+                            <select id="ddlRegions" class="form-control" >
+                                <option style="display:none;" value="" disabled selected>Select your option...</option>
+                                @*@{
+                                    foreach (var region in Model.regions)
+                                    {
+                                        <option value="@region.id">@region.name</option>
+                                    }
+                                }*@
+                            </select>
+
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-md-2">
+                            <label class="control-label">Company: </label>
+                        </div>
+                        <div class="col-md-3">
+                            <select id="ddlCompanies" class="form-control" >
+                                <option style="display:none;" value="" disabled selected>Select your option...</option>
+                                @*@{
+                                    foreach (var company in Model.companies)
+                                    {
+                                        <option value="@company.id">@company.name</option>
+                                    }
+                                }*@
+                            </select>
+
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-md-2">
+                            <label class="control-label">PM: </label>
+                        </div>
+                        <div class="col-md-3">
+                            <select id="ddlPMs" class="form-control" >
+                                <option style="display:none;" value="" disabled selected>Select your option...</option>
+                                @*@{
+                                    foreach (var user in Model.users)
+                                    {
+                                        <option value="@user.id">@user.firstName @user.surname</option>
+                                    }
+                                }*@
+                            </select>
+
+                        </div>
+                    </div>
+
+
+                    <div class="form-group">
+                        <div class="col-md-2">
+                            <label class="control-label">Start Date: </label>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="input-append date input-group" id="dpStartDate" data-date-format="dd-mm-yyyy" >
+                                <input class="form-control" size="16" type="text" value="" readonly>
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-md-2">
+                            <label class="control-label">End Date: </label>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="input-append date input-group" id="dpEndDate" data-date-format="dd-mm-yyyy" >
+                                <input class="form-control" size="16" type="text" value="" readonly>
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-md-2">
+                            <label class="control-label">Cost: </label>
+                        </div>
+                        <div class="col-md-3" >
+                            <input type="text" id="txtCost" class="form-control" placeholder="Cost..."  />
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-md-offset-2 col-md-3" align="right" >
+                            <button class=" btn btn-default" onclick="Cancel()" >
+                                Cancel
+                            </button>
+                            <button class="btn btn-primary" onclick="Save()" ><i class="fa fa-check"></i> Create Project</button>
+                            
+                        </div>
+                    </div>
+
+                </fieldset>
+
+                
+
+            
+            </div>
+        </div>
+    </div>
+
+</div>
+

@@ -1,0 +1,19 @@
+C:\Users\rwatson.EUROFFICE\Downloads\OneShotLatest\OneShot\Dapper.Repositories\bin\Debug\Dapper.Repositories.dll
+C:\Users\rwatson.EUROFFICE\Downloads\OneShotLatest\OneShot\Dapper.Repositories\bin\Debug\Dapper.Repositories.pdb
+C:\Users\rwatson.EUROFFICE\Downloads\OneShotLatest\OneShot\Dapper.Repositories\bin\Debug\Dapper.dll
+C:\Users\rwatson.EUROFFICE\Downloads\OneShotLatest\OneShot\Dapper.Repositories\bin\Debug\DapperExtensions.dll
+C:\Users\rwatson.EUROFFICE\Downloads\OneShotLatest\OneShot\Dapper.Repositories\bin\Debug\Dapper.pdb
+C:\Users\rwatson.EUROFFICE\Downloads\OneShotLatest\OneShot\Dapper.Repositories\bin\Debug\Dapper.xml
+C:\Users\rwatson.EUROFFICE\Downloads\OneShotLatest\OneShot\Dapper.Repositories\bin\Debug\DapperExtensions.pdb
+C:\Users\rwatson.EUROFFICE\Downloads\OneShotLatest\OneShot\Dapper.Repositories\obj\Debug\Dapper.Repositories.csprojResolveAssemblyReference.cache
+C:\Users\rwatson.EUROFFICE\Downloads\OneShotLatest\OneShot\Dapper.Repositories\obj\Debug\Dapper.Repositories.dll
+C:\Users\rwatson.EUROFFICE\Downloads\OneShotLatest\OneShot\Dapper.Repositories\obj\Debug\Dapper.Repositories.pdb
+C:\Users\rwatson.EUROFFICE\Documents\Visual Studio 2013\Projects\ProjectManager\Dapper.Repositories\bin\Debug\Dapper.Repositories.dll
+C:\Users\rwatson.EUROFFICE\Documents\Visual Studio 2013\Projects\ProjectManager\Dapper.Repositories\bin\Debug\Dapper.Repositories.pdb
+C:\Users\rwatson.EUROFFICE\Documents\Visual Studio 2013\Projects\ProjectManager\Dapper.Repositories\bin\Debug\Dapper.dll
+C:\Users\rwatson.EUROFFICE\Documents\Visual Studio 2013\Projects\ProjectManager\Dapper.Repositories\bin\Debug\DapperExtensions.dll
+C:\Users\rwatson.EUROFFICE\Documents\Visual Studio 2013\Projects\ProjectManager\Dapper.Repositories\bin\Debug\Dapper.pdb
+C:\Users\rwatson.EUROFFICE\Documents\Visual Studio 2013\Projects\ProjectManager\Dapper.Repositories\bin\Debug\Dapper.xml
+C:\Users\rwatson.EUROFFICE\Documents\Visual Studio 2013\Projects\ProjectManager\Dapper.Repositories\bin\Debug\DapperExtensions.pdb
+C:\Users\rwatson.EUROFFICE\Documents\Visual Studio 2013\Projects\ProjectManager\Dapper.Repositories\obj\Debug\Dapper.Repositories.dll
+C:\Users\rwatson.EUROFFICE\Documents\Visual Studio 2013\Projects\ProjectManager\Dapper.Repositories\obj\Debug\Dapper.Repositories.pdb

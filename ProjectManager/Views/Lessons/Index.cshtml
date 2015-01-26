@@ -1,0 +1,65 @@
+﻿@model IEnumerable<ProjectManager.Models.Lessons.LessonModel>
+
+@section scripts
+{
+    <script type="text/javascript" src="@Url.Content("/Scripts/App/Lessons/Index.js")"></script>
+}
+
+<div ng-app>
+    
+    <div>
+        <a href="/Lessons/New" id="aCreateLesson" style="float:right;" class="btn btn-default"><i class="fa fa-plus"></i> New</a>
+        <h2>Lessons</h2>
+    </div>
+    <div ng-controller="LessonsCtrl" class="panel panel-default ">
+        <div class="panel-body text-sm">
+            <table id="tblProjects" style="width: 100%;" class="table table-striped table-hover table-responsive">
+                <thead>
+                    <tr class="panel-heading">
+                        <th class="panel-heading">
+                            @Html.DisplayNameFor(m => m.PC)
+                        </th>
+                        <th class="panel-heading">
+                            @Html.DisplayNameFor(m => m.Phase)
+                        </th>
+                        <th class="panel-heading">
+                            @Html.DisplayNameFor(m => m.Title)
+                        </th>
+                        <th class="panel-heading">
+                            @Html.DisplayNameFor(m => m.Remarks)
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @{
+                        foreach (var lesson in Model)
+                        {
+                            <tr>
+                                <td>
+                                    @lesson.PC
+                                </td>
+                                <td>
+                                    @lesson.Phase
+                                </td>
+                                <td>
+                                    @lesson.Title
+                                </td>
+                                <td>
+                                    @lesson.Remarks
+                                </td>
+                              
+                                @*<td>
+                                    <a href="/projects/Edit/@project.id" id="aEditProject" class="btn btn-link" style="color:#428bca;">Edit</a><img src="~/Content/images/divider.gif" class="vertDivider" />
+                                    <button id="btnDelete_@project.id" onclick="Delete(@project.id)" class="btn btn-link">Delete</button>
+                                </td>*@
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+
+</div>
